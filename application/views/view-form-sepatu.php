@@ -46,7 +46,7 @@ method="post">
  </tr>
 
  <tr>
- <th>Ukuaran</th>
+ <th>Ukuran</th>
  <td>:</td>
  <td>
  <select name="ukuran" id="ukuran">
