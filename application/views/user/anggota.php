@@ -13,7 +13,6 @@
             <th nowrap>Photo</th>
             <th nowrap>Nama</th>
             <th nowrap>Email</th>
-            <th nowrap>Bergabung</th>
             <th nowrap>Status</th>
             <th nowrap>Aksi</th>
         </tr>

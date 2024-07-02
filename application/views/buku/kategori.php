@@ -1,3 +1,4 @@
+<!-- Begin Page Content -->
 <div class="container-fluid">
  <?= $this->session->flashdata('pesan'); ?>
  <div class="row">
@@ -8,7 +9,7 @@
  </div>
  <?php }?>
  <?= $this->session->flashdata('pesan'); ?>
- <a href="" class="btn btn-primary mb-3" data-toggle="modal" data-target="#kategoriBaruModal"><i class="fas fafile-alt"></i> Tambah Kategori</a>
+ <a href="" class="btn btn-primary mb-3" data-toggle="modal" data-target="#kategoriBaruModal"><i class="fas fa-file-alt"></i> Tambah Kategori</a>
  <table class="table table-hover">
  <thead>
  <tr>
@@ -26,10 +27,10 @@ foreach ($kategori as $k) { ?>
  <td><?= $k['kategori']; ?></td>
  <td>
  <a href="<?=
-base_url('buku/ubahBuku/').$k['id'];?>" class="badge badge-info"><i
+base_url('buku/ubahKategori/').$k['id'];?>" class="badge badge-info"><i
 class="fas fa-edit"></i> Ubah</a>
  <a href="<?=
-base_url('buku/hapusbuku/').$k['id'];?>" onclick="return
+base_url('buku/hapusKategori/').$k['id'];?>" onclick="return
 confirm('Kamu yakin akan menghapus <?= $judul.' '.$k['kategori'];?>?');" class="badge badge-danger"><i class="fas fa-trash"></i>
 Hapus</a>
  </td>
@@ -83,3 +84,4 @@ class="fas fa-plus-circle"></i> Tambah</button>
  </div>
  </div>
 </div>
+<!-- End of Modal Tambah Mneu -->

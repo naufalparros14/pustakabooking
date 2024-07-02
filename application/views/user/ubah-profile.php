@@ -2,20 +2,19 @@
 <div class="container-fluid">
  <div class="row">
  <div class="col-lg-9">
- <?= form_open_multipart('user/ubahprofil'); ?>
+ <?= form_open_multipart('user/ubah-profil'); ?>
  <div class="form-group row">
- <label for="email" class="col-sm-2 col-form-label">Email</label>
+ <label for="email" class="col-sm-2 col-formlabel">Email</label>
  <div class="col-sm-10">
- <input type="text" class="form-control"
-id="email" name="email" value="<?= $user['email']; ?>" readonly>
+ <input type="text" class="form-control" id="email" name="email" value="<?= $user['email']; ?>" readonly>
  </div>
  </div>
  <div class="form-group row">
- <label for="nama" class="col-sm-2 col-form-label">Nama Lengkap</label>
+ <label for="nama" class="col-sm-2 col-formlabel">Nama Lengkap</label>
  <div class="col-sm-10">
  <input type="text" class="form-control"
 id="nama" name="nama" value="<?= $user['nama']; ?>">
- <?= form_error('nama', '<small class="text-danger pl-3">', '</small>'); ?>
+ <?= form_error('nama', '<small class="textdanger pl-3">', '</small>'); ?>
  </div>
  </div>
  <div class="form-group row">
@@ -24,11 +23,11 @@ id="nama" name="nama" value="<?= $user['nama']; ?>">
  <div class="row">
  <div class="col-sm-3">
  <img src="<?=
-base_url('assets/img/profile/') . $user['image']; ?>" class="img-thumbnail" alt="">
+base_url('assets/img/profile/') . $user['image']; ?>" class="imgthumbnail" alt="">
  </div>
  <div class="col-sm-9">
  <div class="custom-file">
- <input type="file" class="custom-file-input" id="image" name="image">
+ <input type="file" class="customfile-input" id="image" name="image">
  <label class="custom-file-label"
 for="image">Pilih file</label>
  </div>
@@ -38,7 +37,7 @@ for="image">Pilih file</label>
  </div>
  <div class="form-group row justify-content-end">
  <div class="col-sm-10">
- <button type="submit" class="btn btn-primary">Ubah</button>
+ <button type="submit" class="btn btnprimary">Ubah</button>
  <button class="btn btn-dark"
 onclick="window.history.go(-1)"> Kembali</button>
  </div>
@@ -49,4 +48,4 @@ onclick="window.history.go(-1)"> Kembali</button>
 </div>
 <!-- /.container-fluid -->
 </div>
-<!-- End of Main Content -->
+<!-- End of Main Content -

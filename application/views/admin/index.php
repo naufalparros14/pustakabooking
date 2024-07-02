@@ -1,5 +1,4 @@
 <!-- Begin Page Content -->
-
 <div class="container-fluid">
  <!-- row ux-->
  <div class="row">
@@ -9,8 +8,9 @@
  <div class="row no-gutters align-items-center">
  <div class="col mr-2">
  <div class="text-md font-weight-bold text-white text-uppercase mb-1">Jumlah Anggota</div>
- <div class="h1 mb-0 font-weight-bold text-white"><?= $this->ModelUser->getUserWhere(['role_id' => 1])->num_rows();?>
-</div>
+ <div class="h1 mb-0 font-weight-bold text-white"><?=
+$this->ModelUser->getUserWhere(['role_id' => 1])->num_rows();
+?></div>
  </div>
  <div class="col-auto">
  <a href="<?= base_url('user/anggota'); ?>"><i
@@ -35,7 +35,6 @@ $where);
  ?>
  </div>
  </div>
-
  <div class="col-auto">
  <a href="<?= base_url('buku'); ?>"><i class="fas fa-book fa-3x text-primary"></i></a>
  </div>
@@ -170,3 +169,4 @@ text-primary mt-2 float-right"> Tampilkan</i></a>
 <!-- /.container-fluid -->
 </div>
 <!-- End of Main Content -->
+ 

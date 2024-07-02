@@ -5,7 +5,6 @@
  <span>Copyright &copy; Web Programming Univ. BSI with
 Bootstrap SB Admin 2 <?= date('Y'); ?></span>
  </div>
-
  </div>
 </footer>
 <!-- End of Footer -->
@@ -26,7 +25,7 @@ aria-labelledby="exampleModalLabel" aria-hidden="true">
  <h5 class="modal-title" id="exampleModalLabel">Yakin
 mau keluar?</h5>
  <button class="close" type="button" data-dismiss="modal" aria-label="Close">
- <span aria-hidden="true"></span>
+ <span aria-hidden="true">×</span>
  </button>
  </div>
  <div class="modal-body">Pilih "Logout" di bawah jika

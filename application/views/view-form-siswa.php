@@ -1,3 +1,4 @@
+
 <html>
 <head>
  <title>Form Input Data Siswa</title>
@@ -91,9 +92,9 @@ method="post">
  <td>:</td>
  <td>
  <input type="radio" id="kelamin" name="kelamin" value="Laki-laki">
-  <label for="kelamin">Laki-laki</label>
-  <input type="radio" id="kelamin" name="kelamin" value="Perempuan">
-  <label for="css">Perempuan</label><br>
+  <label for="kelamin">Laki-laki</label>
+  <input type="radio" id="kelamin" name="kelamin" value="Perempuan">
+  <label for="css">Perempuan</label><br>
  </td>
  </tr>
 
